@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+       
+        <style>
+            h1{color:black}
+            h1{text-align: center;}
+            body{
+                background-color:greenyellow;;
+            }
+            
+        </style>
+        <body>
+            
+           
+           <div style="text-align: center;">
+        
+        
+            <h1>Student Registration Form</h1>
+                
+                <h2 >Fill in this form to register</h2>
+                <form action="http://127.0.0.1:5000/file", method="POST">
+                   <label style="margin: auto;" for="name">name:</label>
+                   <input style="margin-top: 2%;" type="text" id="name" name="name" ><br>
+                    <label for="fname">Last name:</label>
+                    <input style="margin-top: 2%;"   type="text" id="fname" name="fname" ><br>
+                    <label for="email">email:</label>
+                    <input style="margin-top: 2%;"  type="email" id="email" name="email"><br>
+                    <label for="dd">Date of birth:</label>
+                    <input style="margin-top: 2%;"   type="date" id="dd" name="dd"><br>
+                     <label for="username">set username:</label>
+                    <input style="margin-top: 2%;"   type="text" id="username" name="username"><br>
+                    <label for="pwd">set password:</label>
+                    <input style="margin-top: 2%;"    type="password" id="pwd" name="pwd"><br>
+                    <p>Gender:</p>
+                     <input style="margin-top: 2%;"   type="radio" id="Ma" name="Male" value="HTML">
+                    <label for="ma">Male</label><br>
+                    <input style="margin-top: 2%;"   type="radio" id="css" name="Male" value="CSS">
+                    <label for="css">female</label><br>
+                    <input style="margin-top: 2%;"  type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="others">others</label><br>
+                    <p><label style="font-weight: bold;" for="browser">Course :</label>
+                        <input placeholder="Course"  list="browsers" name="browser" id="browser">
+                        <datalist id="browsers">
+                            <option value="phy">
+                            <option value="che">
+                            <option value="bio">
+                            <option value="maths">
+                            <option value="eng">
+                          </datalist></p>
+
+                    <input type="submit" value="submit">
+
+                </form>
+            </div>
+
+
+        </body>
+    </head>
+</html>
